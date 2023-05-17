@@ -15,7 +15,7 @@ Please note that the downloaded dataset should only be used for participating in
 
 All the tweets are instantly crawled from Twitter. We are aware that some tweets could not be available when participants start to download (e.g., a tweet is deleted by its author). We will regularly monitor the whole dataset and provide data patches to replace invalid tweets. Therefore, it is required to fill out the [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSci3TSw6ylcWnjXQsoUjh3buAQx7IdgiJwrJDR2pDHMm8DIpQ/viewform) in order to receive data patches and to participate in the shared task.
 
-Please run `python get_tweet_data.py`
+Please run `python get_tweet_data.py` to download the dataset.
 
 ## Citation
 ``````
