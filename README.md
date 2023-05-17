@@ -15,10 +15,10 @@ Please note that the downloaded dataset should only be used for participating in
 
 All the tweets are instantly crawled from Twitter. We are aware that some tweets could not be available when participants start to download (e.g., a tweet is deleted by its author). We will regularly monitor the whole dataset and provide data patches to replace invalid tweets. Therefore, it is required to fill out the [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSci3TSw6ylcWnjXQsoUjh3buAQx7IdgiJwrJDR2pDHMm8DIpQ/viewform) in order to receive data patches and to participate in the shared task.
 
-Please run `python get_tweet_data.py` to download the dataset.
+Please install `requirements.txt` dependencies and run `python get_tweet_data.py` to download the dataset.
 
 ## Citation
-``````
+```
 @inproceedings{liu-etal-2022-imagearg,
     title = "{I}mage{A}rg: A Multi-modal Tweet Dataset for Image Persuasiveness Mining",
     author = "Liu, Zhexiong  and Guo, Meiqi  and Dai, Yue  and Litman, Diane",
@@ -30,8 +30,8 @@ Please run `python get_tweet_data.py` to download the dataset.
     url = "https://aclanthology.org/2022.argmining-1.1",
     pages = "1--18"
     }
-``````
+```
 
 ## Organizer
 
-Zheixong Liu, Mohamed Elaraby, Yang Zhong, and Diane Litman (University of Pittsburgh)
+[Zheixong Liu](https://people.cs.pitt.edu/~zhexiong/), [Mohamed Elaraby](https://engsalem.github.io/), [Yang Zhong](http://yangzhongcs.com/), and [Diane Litman](https://people.cs.pitt.edu/~litman/) at University of Pittsburgh.
