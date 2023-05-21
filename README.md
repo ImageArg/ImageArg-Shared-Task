@@ -33,7 +33,7 @@ fill out
 the [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSci3TSw6ylcWnjXQsoUjh3buAQx7IdgiJwrJDR2pDHMm8DIpQ/viewform)
 in order to receive data patches and the shared task updates.
 
-Please install `requirements.txt` dependencies and run `python get_tweet_data.py` to download the dataset.
+Please install `requirements.txt` dependencies and run `python get_train_dev_data.py` to download the dataset.
 
 ## Citation
 
