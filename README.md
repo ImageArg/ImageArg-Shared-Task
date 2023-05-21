@@ -34,7 +34,8 @@ the [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSci3TSw6ylcWnjXQsoUjh
 in order to receive data patches and the shared task updates.
 
 Please install `requirements.txt` dependencies and run `python get_train_dev_data.py` to download training and dev
-datasets for both shared subtasks.
+datasets for both shared subtasks. The dataset downloader is adopted from [stweet](https://github.com/markowanga/stweet).
+Participants are suggested to run the script twice to make sure each tweet is successfully crawled.
 
 ## Citation
 
