@@ -43,8 +43,8 @@ def run(topic="abortion"):
         os.mkdir(os.path.join(args.data_dir, "images", f"{topic}"))
 
     text_exist_ids = []
-    df_train_exist = None
-    df_dev_exist = None
+    df_train_exist = pd.DataFrame()
+    df_dev_exist = pd.DataFrame()
     if os.path.exists(os.path.join(f"{args.data_dir}", f"{topic}_train.csv")):
         df_train_exist = pd.read_csv(os.path.join(f"{args.data_dir}", f"{topic}_train.csv"))
         text_exist_ids += df_train_exist["tweet_id"].tolist()
@@ -76,7 +76,7 @@ def run(topic="abortion"):
 
         # save time in case the images are downloaded
         image_exist_path = os.path.join(args.data_dir, "images", f"{topic}", f"{tweetid}.jpg")
-        if os.path.exists(image_exist_path) and tweetid in text_exist_ids:
+        if os.path.exists(image_exist_path) and (tweetid in text_exist_ids):
             continue
 
         try:
@@ -107,9 +107,9 @@ def run(topic="abortion"):
             df_train = df[df["split"] == "train"]
             df_dev = df[df["split"] == "dev"]
 
-            if not df_train_exist:
+            if len(df_train_exist) > 0:
                 df_train = pd.concat([df_train_exist, df_train])
-            if not df_dev_exist:
+            if len(df_dev_exist) > 0:
                 df_dev = pd.concat([df_dev_exist, df_dev])
 
             df_train.to_csv(os.path.join(f"{args.data_dir}", f"{topic}_train.csv"), index=False)
