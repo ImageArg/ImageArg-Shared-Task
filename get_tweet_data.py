@@ -42,6 +42,17 @@ def run(topic="abortion"):
     if not os.path.exists(os.path.join(args.data_dir, "images", f"{topic}")):
         os.mkdir(os.path.join(args.data_dir, "images", f"{topic}"))
 
+    text_exist_ids = []
+    df_train_exist = None
+    df_dev_exist = None
+    if os.path.exists(os.path.join(f"{args.data_dir}", f"{topic}_train.csv")):
+        df_train_exist = pd.read_csv(os.path.join(f"{args.data_dir}", f"{topic}_train.csv"))
+        text_exist_ids += df_train_exist["tweet_id"].tolist()
+    if os.path.exists(os.path.join(f"{args.data_dir}", f"{topic}_train.csv")):
+        df_dev_exist = pd.read_csv(os.path.join(f"{args.data_dir}", f"{topic}_dev.csv"))
+        text_exist_ids += df_dev_exist["tweet_id"].tolist()
+
+
     # if not os.path.exists(args.meta_data):
     #     raise "No meta data found! Please download meta data..."
     # with open(args.meta_data) as f:
@@ -65,7 +76,8 @@ def run(topic="abortion"):
         split = item["split"]
 
         # save time in case the images are downloaded
-        if os.path.exists(os.path.join(args.data_dir, "images", f"{topic}", f"{tweetid}.jpg")):
+        image_exist_path = os.path.join(args.data_dir, "images", f"{topic}", f"{tweetid}.jpg")
+        if os.path.exists(image_exist_path) and tweetid in text_exist_ids:
             continue
 
         try:
@@ -95,6 +107,12 @@ def run(topic="abortion"):
 
             df_train = df[df["split"] == "train"]
             df_dev = df[df["split"] == "dev"]
+
+            if not df_train_exist:
+                df_train = pd.concat([df_train_exist, df_train])
+            if not df_dev_exist:
+                df_dev = pd.concat([df_dev_exist, df_dev])
+                
             df_train.to_csv(os.path.join(f"{args.data_dir}", f"{topic}_train.csv"), index=False)
             df_dev.to_csv(os.path.join(f"{args.data_dir}", f"{topic}_dev.csv"), index=False)
 

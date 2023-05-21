@@ -1,23 +1,42 @@
 # ImageArg-Shared-Task-2023
 
 ## Information
+
 Webpage: [ImageArg Shared Task](https://imagearg.github.io/)
 
 Join Slack: [ImageArg Slack](https://join.slack.com/t/imagearg/shared_invite/zt-1ss5hdb6d-eNCaWOAEe4O_8UE1gQxIxA)
 
-Signup Form: [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSci3TSw6ylcWnjXQsoUjh3buAQx7IdgiJwrJDR2pDHMm8DIpQ/viewform)
+Signup
+Form: [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSci3TSw6ylcWnjXQsoUjh3buAQx7IdgiJwrJDR2pDHMm8DIpQ/viewform)
 
 ## Introduction
-There has been a recent surge of interest in developing methods and corpora to improve and evaluate persuasiveness in natural language applications. However, these efforts have mainly focused on the textual modality, neglecting the influence of other modalities. [Liu et al.](https://aclanthology.org/2022.argmining-1.1.pdf) introduced a new multimodal dataset called “ImageArg” This dataset includes persuasive tweets along with associated images, aiming to identify the image's stance towards the tweet and determine its persuasiveness score concerning a specific topic. The ImageArg dataset is a significant step towards advancing multimodal persuasive text analysis and opens up avenues for exploring the persuasive impact of images in social media. To further this goal, we designed this shared task, which utilizes the ImageArg dataset to advance multimodal persuasiveness techniques.
+
+There has been a recent surge of interest in developing methods and corpora to improve and evaluate persuasiveness in
+natural language applications. However, these efforts have mainly focused on the textual modality, neglecting the
+influence of other modalities. [Liu et al.](https://aclanthology.org/2022.argmining-1.1.pdf) introduced a new multimodal
+dataset called “ImageArg” This dataset includes persuasive tweets along with associated images, aiming to identify the
+image's stance towards the tweet and determine its persuasiveness score concerning a specific topic. The ImageArg
+dataset is a significant step towards advancing multimodal persuasive text analysis and opens up avenues for exploring
+the persuasive impact of images in social media. To further this goal, we designed this shared task, which utilizes the
+ImageArg dataset to advance multimodal persuasiveness techniques.
 
 ## Dataset
-Please note that the downloaded dataset should only be used for participating in ImageArg Shared Task. Any other use is explicitly prohibited. Any participants are not allowed to redistribute the dataset per Twitter Developer Policy: https://developer.twitter.com/en/developer-terms/policy.
 
-All the tweets are instantly crawled from Twitter. We are aware that some tweets could not be available when participants start to download (e.g., a tweet is deleted by its author). We will regularly monitor the whole dataset and provide data patches to replace invalid tweets. Therefore, it is required to fill out the [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSci3TSw6ylcWnjXQsoUjh3buAQx7IdgiJwrJDR2pDHMm8DIpQ/viewform) in order to receive data patches and to participate in the shared task.
+The dataset to download should only be used for participating in the ImageArg Shared Task. Any other use is explicitly
+prohibited. Participants are not allowed to redistribute the dataset
+per: [Twitter Developer Policy](https://developer.twitter.com/en/developer-terms/policy).
+
+All the tweets are instantly crawled from Twitter. Organizers are aware some tweets could not be available when
+participants start to download (e.g., a tweet could be deleted by its author). Organizers will regularly monitor the
+dataset to provide data patches that will replace invalid tweets with new annotated ones. Participants are required to
+fill out
+the [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSci3TSw6ylcWnjXQsoUjh3buAQx7IdgiJwrJDR2pDHMm8DIpQ/viewform)
+in order to receive data patches and the shared task updates.
 
 Please install `requirements.txt` dependencies and run `python get_tweet_data.py` to download the dataset.
 
 ## Citation
+
 ```
 @inproceedings{liu-etal-2022-imagearg,
     title = "{I}mage{A}rg: A Multi-modal Tweet Dataset for Image Persuasiveness Mining",
@@ -34,4 +53,6 @@ Please install `requirements.txt` dependencies and run `python get_tweet_data.py
 
 ## Organizer
 
-[Zheixong Liu](https://people.cs.pitt.edu/~zhexiong/), [Mohamed Elaraby](https://engsalem.github.io/), [Yang Zhong](http://yangzhongcs.com/), and [Diane Litman](https://people.cs.pitt.edu/~litman/) at University of Pittsburgh.
+[Zheixong Liu](https://people.cs.pitt.edu/~zhexiong/), [Mohamed Elaraby](https://engsalem.github.io/)
+, [Yang Zhong](http://yangzhongcs.com/), and [Diane Litman](https://people.cs.pitt.edu/~litman/) at University of
+Pittsburgh.
