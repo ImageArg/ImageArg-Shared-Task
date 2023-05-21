@@ -52,7 +52,6 @@ def run(topic="abortion"):
         df_dev_exist = pd.read_csv(os.path.join(f"{args.data_dir}", f"{topic}_dev.csv"))
         text_exist_ids += df_dev_exist["tweet_id"].tolist()
 
-
     # if not os.path.exists(args.meta_data):
     #     raise "No meta data found! Please download meta data..."
     # with open(args.meta_data) as f:
@@ -112,7 +111,7 @@ def run(topic="abortion"):
                 df_train = pd.concat([df_train_exist, df_train])
             if not df_dev_exist:
                 df_dev = pd.concat([df_dev_exist, df_dev])
-                
+
             df_train.to_csv(os.path.join(f"{args.data_dir}", f"{topic}_train.csv"), index=False)
             df_dev.to_csv(os.path.join(f"{args.data_dir}", f"{topic}_dev.csv"), index=False)
 
@@ -122,7 +121,8 @@ def run(topic="abortion"):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Persuasiveness')
-    parser.add_argument('--meta-data', default='https://people.cs.pitt.edu/~zhexiong/data/meta_data.json', help='meta data path')
+    parser.add_argument('--meta-data', default='https://people.cs.pitt.edu/~zhexiong/data/meta_data.json',
+                        help='meta data path')
     parser.add_argument('--data-dir', default='./data', help='path to save data')
     args = parser.parse_args()
     for topic in ["gun_control", "abortion"]:
