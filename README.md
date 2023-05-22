@@ -24,7 +24,7 @@ ImageArg dataset to advance multimodal persuasiveness techniques.
 
 The dataset to download should only be used for participating in the ImageArg Shared Task. Any other use is explicitly
 prohibited. Participants are not allowed to redistribute the dataset
-per: [Twitter Developer Policy](https://developer.twitter.com/en/developer-terms/policy).
+per [Twitter Developer Policy](https://developer.twitter.com/en/developer-terms/policy).
 
 All the tweets are instantly crawled from Twitter. Organizers are aware some tweets could not be available when
 participants start to download (e.g., a tweet could be deleted by its author). Organizers will regularly monitor the
@@ -55,6 +55,5 @@ Participants are suggested to run the script twice to make sure each tweet is su
 
 ## Organizer
 
-[Zheixong Liu](https://people.cs.pitt.edu/~zhexiong/), [Mohamed Elaraby](https://engsalem.github.io/)
-, [Yang Zhong](http://yangzhongcs.com/), and [Diane Litman](https://people.cs.pitt.edu/~litman/) at University of
+[Zheixong Liu](https://people.cs.pitt.edu/~zhexiong/), [Mohamed Elaraby](https://engsalem.github.io/), [Yang Zhong](http://yangzhongcs.com/), and [Diane Litman](https://people.cs.pitt.edu/~litman/) at University of
 Pittsburgh.
