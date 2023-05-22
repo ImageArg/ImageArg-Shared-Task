@@ -53,7 +53,7 @@ Participants are suggested to run the script twice to make sure each tweet is su
     }
 ```
 
-## Organizer
+## Organizers
 
 [Zheixong Liu](https://people.cs.pitt.edu/~zhexiong/), [Mohamed Elaraby](https://engsalem.github.io/), [Yang Zhong](http://yangzhongcs.com/), and [Diane Litman](https://people.cs.pitt.edu/~litman/) at University of
 Pittsburgh.
