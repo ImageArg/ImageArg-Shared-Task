@@ -15,8 +15,17 @@ in the root folder in order to run the code.
 Data: 2023-07-03
 =========================================================
 """
+import platform
 
-from dataset import *
 if __name__ == '__main__':
+    if platform.processor() == "arm":
+        from src.dataset_macos_silicon import get_train_dev_data
+    elif platform.system() == "Darwin" and platform.machine() == "x86_64":
+        from src.dataset_macos_intel import get_train_dev_data
+    elif platform.system() == "Linux" and platform.machine() == "x86_64":
+        from src.dataset_ubuntu import get_train_dev_data
+    else:
+        raise "not supported system!"
     get_train_dev_data()
+
 
