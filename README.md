@@ -40,8 +40,8 @@ Participants are suggested to run the script twice to make sure each tweet is su
 [**UPDATE**] We noticed recent changes to the Tweet policy that prevents viewing content without a logged-in account. It 
 might make [stweet](https://github.com/markowanga/stweet) not work at the moment. In this case, please pull 
 `src` folder and run `python get_train_dev_data_v2.py`. This code will work best with macOS-ARM/X86 and Ubuntu systems. 
-If you are macOS users and have issues to run the script, please try again after install `xcode-select --install`. 
-Please contact the organizers if you have any other issues. 
+If you are macOS users and have issues to run the script, please try again after install/update X-Code (`xcode-select 
+--install`. Please contact the organizers if you have any other issues. 
 ## Citation
 
 ```
