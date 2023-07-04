@@ -9,7 +9,7 @@ to redistribute the dataset per Twitter Developer Policy:
 https://developer.twitter.com/en/developer-terms/policy.
 ---------------------------------------------------------
 Notice: This code is managed by ImageArg Shared Task
-(https://imagearg.github.io/). # please keep dataset.so
+(https://imagearg.github.io/). Please keep dataset.so
 in the root folder in order to run the code.
 ---------------------------------------------------------
 Data: 2023-07-03
