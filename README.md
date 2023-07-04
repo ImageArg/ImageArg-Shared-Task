@@ -37,6 +37,10 @@ Please install `requirements.txt` dependencies and run `python get_train_dev_dat
 datasets for both shared subtasks. The dataset downloader is adopted from [stweet](https://github.com/markowanga/stweet).
 Participants are suggested to run the script twice to make sure each tweet is successfully crawled.
 
+[UPDATE] We noticed recent changes to the Tweet policy that prevents viewing content without a logged-in account. It 
+makes [stweet](https://github.com/markowanga/stweet) not work at the moment. In this case, please pull 
+`get_train_dev_data_v2.py` and `dataset.so` files into root the folder, and run `python get_train_dev_data_v2.py`. 
+This code will work best with Python 3.9 and macOS Ventura. Please contact the organizers if you have dataset issues.
 ## Citation
 
 ```
