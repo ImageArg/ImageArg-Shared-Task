@@ -48,7 +48,7 @@ def run(topic="abortion"):
     if os.path.exists(os.path.join(f"{args.data_dir}", f"{topic}_train.csv")):
         df_train_exist = pd.read_csv(os.path.join(f"{args.data_dir}", f"{topic}_train.csv"))
         text_exist_ids += df_train_exist["tweet_id"].tolist()
-    if os.path.exists(os.path.join(f"{args.data_dir}", f"{topic}_train.csv")):
+    if os.path.exists(os.path.join(f"{args.data_dir}", f"{topic}_dev.csv")):
         df_dev_exist = pd.read_csv(os.path.join(f"{args.data_dir}", f"{topic}_dev.csv"))
         text_exist_ids += df_dev_exist["tweet_id"].tolist()
 
