@@ -42,7 +42,8 @@ account. It might make [stweet](https://github.com/markowanga/stweet) not work a
 `plugins` folder and run `python get_train_dev_data_v2.py`. This code will work best with macOS-ARM/X86 and Ubuntu/Debian
 systems. If you are macOS users and have running issues, please install XCode (`xcode-select --install`). If you are 
 Linux users and have running issues, please install essential build tools (`sudo apt-get install build-essential`). If
-you are Windows users or have any other issues, please contact the organizers. 
+you are Windows users or have any other issues, please contact the organizers by email or 
+[ImageArg Slack](https://join.slack.com/t/imagearg/shared_invite/zt-1ss5hdb6d-eNCaWOAEe4O_8UE1gQxIxA). 
 ## Citation
 
 ```
