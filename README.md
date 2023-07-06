@@ -40,7 +40,7 @@ Participants are suggested to run the script twice to make sure each tweet is su
 **[UPDATE]** The organizers noticed recent changes to the Tweet policy that prevents viewing content without a logged-in
 account. It might make [stweet](https://github.com/markowanga/stweet) not work at the moment. In this case, please pull 
 `plugins` folder and run `python get_train_dev_data_v2.py`. This code will work best with macOS-ARM/X86 and Ubuntu/Debian
-systems. You will need to install Python 3.9 to run the scrip properly. If you are macOS users please install XCode (`xcode-select --install`). If you are 
+systems with a Python 3.9 environment. If you are macOS users please install XCode (`xcode-select --install`). If you are 
 Linux users please install essential build tools (`sudo apt-get install build-essential`). If
 you are Windows users or have any other issues, please contact the organizers by email or 
 [ImageArg Slack](https://join.slack.com/t/imagearg/shared_invite/zt-1ss5hdb6d-eNCaWOAEe4O_8UE1gQxIxA). 
