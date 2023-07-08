@@ -7,7 +7,7 @@ Webpage: [ImageArg Shared Task](https://imagearg.github.io/)
 Join Slack: [ImageArg Slack](https://join.slack.com/t/imagearg/shared_invite/zt-1ss5hdb6d-eNCaWOAEe4O_8UE1gQxIxA)
 
 Signup
-Form: [DEADLINE PASSED][NAN]
+Form: *DEADLINE PASSED*
 
 ## Introduction
 
