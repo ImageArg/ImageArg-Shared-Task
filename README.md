@@ -33,8 +33,8 @@ fill out
 the [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSci3TSw6ylcWnjXQsoUjh3buAQx7IdgiJwrJDR2pDHMm8DIpQ/viewform)
 in order to receive data patches and the shared task updates.
 
-Please install `requirements.txt` (`pip install -r requirements.txt`) dependencies and run `python get_train_dev_data.py` to download training and dev
-datasets for both shared subtasks. ~~The dataset downloader is adopted from [stweet](https://github.com/markowanga/stweet).
+Please install `requirements.txt` (`pip install -r requirements.txt`) dependencies ~~and run `python get_train_dev_data.py` to download training and dev
+datasets for both shared subtasks. The dataset downloader is adopted from [stweet](https://github.com/markowanga/stweet).
 Participants are suggested to run the script twice to make sure each tweet is successfully crawled.~~
 
 **[UPDATE]** The organizers noticed recent changes to the Tweet policy that prevents viewing content without a logged-in
