@@ -34,16 +34,21 @@ the [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSci3TSw6ylcWnjXQsoUjh
 in order to receive data patches and the shared task updates.
 
 Please install `requirements.txt` (`pip install -r requirements.txt`) dependencies and run `python get_train_dev_data.py` to download training and dev
-datasets for both shared subtasks. The dataset downloader is adopted from [stweet](https://github.com/markowanga/stweet).
-Participants are suggested to run the script twice to make sure each tweet is successfully crawled.
+datasets for both shared subtasks. ~~The dataset downloader is adopted from [stweet](https://github.com/markowanga/stweet).
+Participants are suggested to run the script twice to make sure each tweet is successfully crawled.~~
 
 **[UPDATE]** The organizers noticed recent changes to the Tweet policy that prevents viewing content without a logged-in
 account. It might make [stweet](https://github.com/markowanga/stweet) not work at the moment. In this case, please pull 
-`plugins` folder and run `python get_train_dev_data_v2.py`. This code will work best with macOS-ARM/X86 and Ubuntu/Debian
+`plugins` folder and run `python get_train_dev_data_v2.py`. The test data is available by running `python get_test_data_v2.py`. 
+
+**[NOTICE]** The code will work best with macOS-ARM/X86 and Ubuntu/Debian
 systems with a Python 3.9 environment. If you are macOS users please install XCode (`xcode-select --install`). If you are 
 Linux users please install essential build tools (`sudo apt-get install build-essential`). If
 you are Windows users or have any other issues, please contact the organizers by email or 
 [ImageArg Slack](https://join.slack.com/t/imagearg/shared_invite/zt-1ss5hdb6d-eNCaWOAEe4O_8UE1gQxIxA). 
+
+**[UPDATES]** 
+
 ## Citation
 
 ```
