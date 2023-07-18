@@ -87,8 +87,8 @@ Your file name should be like
 i.e., `test-team.baseline.TaskA.1.csv`.
 
 ### Submission Form
-If you are not sure if your format meets the requirement. Please run `python check_submission_format.py <your_file_name>` to check it.
-If you participated in two subtasks, you would need to submit this [Google Form](https://forms.gle/pUTqU5Vc2q2K91M58) twice 
+If you are not sure your format meets the requirement please run `python check_submission_format.py <your_file_name>` to check it.
+If you participated in two subtasks, you would need to submit this **[Google Form]**(https://forms.gle/pUTqU5Vc2q2K91M58) twice.
 
 ## Citation
 
