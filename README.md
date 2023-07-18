@@ -56,7 +56,7 @@ We use Google From for submissions because all the other submission portals do n
 Participants need to read the following instruction carefully before the submission. The instruction is 
 also available in the submission form.
 
-#### File Format Validation:
+### File Format Validation
 The file should be in .csv format with a maximum of two columns: "tweet_id", and either "stance" or "persuasiveness" 
 depends on subtasks.
 
@@ -74,7 +74,7 @@ tweet_id, persuasiveness
 ```
 Please note tweet id should be integer and stance/persuasiveness should be lower cases.
 
-#### File Name Validation:
+### File Name Validation
 The file name should be composed of the following parts:
 - Team_Name: your team name
 - Method_Name: please give a name to your model/method (we accept multiple methods/models you might try)
@@ -86,7 +86,7 @@ Your file name should be like
 `{team_name}.{method_name}.{task_name}.{attempt_number}.csv`
 i.e., `test-team.baseline.TaskA.1.csv`.
 
-#### Submission Form:
+### Submission Form
 If you are not sure if your format meets the requirement. Please run `python check_submission_format.py <your_file_name>` to check it.
 If you participated in two subtasks, you would need to submit this [Google Form](https://forms.gle/pUTqU5Vc2q2K91M58) twice 
 
