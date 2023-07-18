@@ -84,8 +84,8 @@ The file name should be composed of the following parts:
 - `team_name`: the name of participants' team
 - `method_name`: the name of the model/method (we accept multiple methods/models participants might try)
 - `task_name`: the name of shared task (for Stance Classification the name is `TaskA`, while for Persuasiveness Classification the name is `TaskB`)
-- `attempt_number`: the number of submission attempts (you can do a total of 5 submission attempts)
-- No period symbol in Team_Name, Method_Name, Task_Name, and Attempt_Number.
+- `attempt_number`: the number of submission attempts (participants can do a total of 5 submission attempts regardless of whether the same method/model or not in each submission)
+- No period symbol in `team_name`, `method_name`, `task_name`, and `attempt_number`.
 
 Your file name should be like 
 `{team_name}.{method_name}.{task_name}.{attempt_number}.csv`, i.e., `test-team.baseline.TaskA.1.csv`.
