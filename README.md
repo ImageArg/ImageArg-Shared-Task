@@ -52,7 +52,7 @@ Please note organizers use email addresses and team names to identify registered
 you used in the registration phrase when you make a submission. If you don't remember your team names or emails 
 (used in the registration phase) please contact the organizers at imagearg [at] gmail.com
 
-We use Google From for submissions because all the other submission portals do not meet our data privacy requirement.
+Organizers use Google From for submissions because all the other submission portals do not meet data privacy requirements.
 Participants need to read the following instruction carefully before the submission. The instruction is 
 also available in the submission form.
 
