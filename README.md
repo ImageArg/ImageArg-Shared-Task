@@ -83,8 +83,7 @@ The file name should be composed of the following parts:
 - No period symbol in Team_Name, Method_Name, Task_Name, and Attempt_Number.
 
 Your file name should be like 
-`{team_name}.{method_name}.{task_name}.{attempt_number}.csv`
-i.e., `test-team.baseline.TaskA.1.csv`.
+`{team_name}.{method_name}.{task_name}.{attempt_number}.csv`, i.e., `test-team.baseline.TaskA.1.csv`.
 
 ### Submission Form
 If you are not sure your format meets the requirement please run `python check_submission_format.py <your_file_name>` to check it.
