@@ -58,7 +58,9 @@ also available in the submission form.
 
 ### File Format Validation
 The file should be in .csv format with a maximum of two columns: `tweet_id` and either `stance` or `persuasiveness`.
-depends on subtasks. Participants need to include predictions in `abortion` and `gun control` topics in a single .csv
+depends on subtasks. 
+
+Participants need to include predictions in `abortion` and `gun control` topics in a single .csv
 file regardless their orders.
 
 TaskA (Stance Classification) .csv file should include:
