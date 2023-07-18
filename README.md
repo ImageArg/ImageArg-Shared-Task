@@ -68,12 +68,14 @@ TaskA (Stance Classification) .csv file should include:
 tweet_id, stance
 1204712613394944000, oppose
 1204712613394933000, support
+...                , ...
 ```
 TaskB (Persuasiveness Classification) .csv file should include:
 ```angular2html
 tweet_id, persuasiveness
 1204712613394944000, yes
 1204712613394933000, no
+...                , ...
 ```
 Please note `tweet_id` should be an integer and `stance`/`persuasiveness` should be lower cases.
 
