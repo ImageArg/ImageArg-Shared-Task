@@ -47,7 +47,48 @@ Linux users please install essential build tools (`sudo apt-get install build-es
 you are Windows users or have any other issues, please contact the organizers by email or 
 [ImageArg Slack](https://join.slack.com/t/imagearg/shared_invite/zt-1ss5hdb6d-eNCaWOAEe4O_8UE1gQxIxA). 
 
-**[UPDATES]** 
+## Submission
+Please note organizers use email addresses and team names to identify registered teams. Please ensure to input ANY email address
+you used in the registration phrase when you make a submission. If you don't remember your team names or emails 
+(used in the registration phase) please contact the organizers at imagearg [at] gmail.com
+
+We use Google From for submissions because all the other submission portals do not meet our data privacy requirement.
+Participants need to read the following instruction carefully before the submission. The instruction is 
+also available in the submission form.
+
+#### File Format Validation:
+The file should be in .csv format with a maximum of two columns: "tweet_id", and either "stance" or "persuasiveness" 
+depends on subtasks.
+
+TaskA (Stance Classification) .csv file should include:
+```angular2html
+tweet_id, stance
+1204712613394944000, oppose
+1204712613394933000, support
+```
+TaskB (Persuasiveness Classification) .csv file should include:
+```angular2html
+tweet_id, persuasiveness
+1204712613394944000, yes
+1204712613394933000, no
+```
+Please note tweet id should be integer and stance/persuasiveness should be lower cases.
+
+#### File Name Validation:
+The file name should be composed of the following parts:
+- Team_Name: your team name
+- Method_Name: please give a name to your model/method (we accept multiple methods/models you might try)
+- Task_Name: shared task name (For Stance Classification, the task name is "TaskA", while for Persuasiveness Classification the task name is "TaskB")
+- Attempt_Number: the number of submission attempts (you can do a total of 5 submission attempts)
+- No period symbol in Team_Name, Method_Name, Task_Name, and Attempt_Number.
+
+Your file name should be like 
+`{team_name}.{method_name}.{task_name}.{attempt_number}.csv`
+i.e., `test-team.baseline.TaskA.1.csv`.
+
+#### Submission Form:
+If you are not sure if your format meets the requirement. Please run `python check_submission_format.py <your_file_name>` to check it.
+If you participated in two subtasks, you would need to submit this [Google Form](https://forms.gle/pUTqU5Vc2q2K91M58) twice 
 
 ## Citation
 
