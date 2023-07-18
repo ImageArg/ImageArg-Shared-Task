@@ -57,7 +57,7 @@ Participants need to read the following instruction carefully before the submiss
 also available in the submission form.
 
 ### File Format Validation
-The file should be in .csv format with a maximum of two columns: "tweet_id" and either "stance" or "persuasiveness" 
+The file should be in .csv format with a maximum of two columns: `tweet_id` and either `stance` or `persuasiveness`.
 depends on subtasks.
 
 TaskA (Stance Classification) .csv file should include:
@@ -72,14 +72,14 @@ tweet_id, persuasiveness
 1204712613394944000, yes
 1204712613394933000, no
 ```
-Please note tweet id should be integer and stance/persuasiveness should be lower cases.
+Please note `tweet_id` should be integer and `stance`/`persuasiveness` should be lower cases.
 
 ### File Name Validation
 The file name should be composed of the following parts:
-- Team_Name: your team name
-- Method_Name: please give a name to your model/method (we accept multiple methods/models you might try)
-- Task_Name: shared task name (For Stance Classification, the task name is "TaskA", while for Persuasiveness Classification the task name is "TaskB")
-- Attempt_Number: the number of submission attempts (you can do a total of 5 submission attempts)
+- `team_name`: your team name
+- `method_name`: please give a name to your model/method (we accept multiple methods/models you might try)
+- `task_name`: shared task name (For Stance Classification, the task name is "TaskA", while for Persuasiveness Classification the task name is "TaskB")
+- `attempt_number`: the number of submission attempts (you can do a total of 5 submission attempts)
 - No period symbol in Team_Name, Method_Name, Task_Name, and Attempt_Number.
 
 Your file name should be like 
