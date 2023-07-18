@@ -84,7 +84,7 @@ The file name should be composed of the following parts:
 - `team_name`: the name of participants' team
 - `method_name`: the name of the model/method (we accept multiple methods/models participants might try)
 - `task_name`: the name of shared task (for Stance Classification the name is `TaskA`, while for Persuasiveness Classification the name is `TaskB`)
-- `attempt_number`: the number of submission attempts (participants can do a total of 5 submission attempts regardless of whether the same method/model or not in each submission)
+- `attempt_number`: the number of submission attempts (participants can do a total of 5 submission for each subtask regardless of whether the same method/model or not in each submission)
 - No period symbol in `team_name`, `method_name`, `task_name`, and `attempt_number`.
 
 Your file name should be like 
@@ -95,7 +95,7 @@ If you are not sure your format meets the requirement please run `python check_s
 
 If you participated in two subtasks, you would need to submit this **[Google Form](https://forms.gle/pUTqU5Vc2q2K91M58)** twice.
 
-The best score in all the submissions from the same team will be automatically used for leaderboard ranking.
+The best score in all the submissions from the same team will be automatically used for leaderboard ranking for each subtask.
 ## Citation
 
 ```
