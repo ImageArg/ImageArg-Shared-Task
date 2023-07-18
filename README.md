@@ -95,6 +95,7 @@ If you are not sure your format meets the requirement please run `python check_s
 
 If you participated in two subtasks, you would need to submit this **[Google Form](https://forms.gle/pUTqU5Vc2q2K91M58)** twice.
 
+The best score in all the submissions from the same team will be automatically used for leaderboard ranking.
 ## Citation
 
 ```
