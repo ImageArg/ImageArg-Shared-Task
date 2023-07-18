@@ -77,7 +77,7 @@ tweet_id, persuasiveness
 1204712613394933000, no
 ...                , ...
 ```
-Please note `tweet_id` should be an integer and `stance`/`persuasiveness` should be lower cases.
+Please note `tweet_id` should be an integer, `stance` should be either `support` or `oppose`, and `persuasiveness` should be `yes` or `no`. All are lower cases.
 
 ### File Name Validation
 The file name should be composed of the following parts:
