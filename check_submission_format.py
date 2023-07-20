@@ -107,7 +107,7 @@ def verify_format(file_name):
             return
     elif subtask == 'TaskB':
         try:
-            if "stance" not in predictions.columns:
+            if "persuasiveness" not in predictions.columns:
                 print("Wrong column name in your file - should be named persuasiveness")
                 return
             assert all(_pred in ("yes", "no") for _pred in predictions['persuasiveness'].tolist())
