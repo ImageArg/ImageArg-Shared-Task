@@ -121,10 +121,7 @@ def verify_format(file_name):
 
 
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser(
-        prog='ProgramName',
-        description='What the program does',
-        epilog='Text at the bottom of help')
+    parser = argparse.ArgumentParser(prog='imagearg shared task', description='check submission file format')
     parser.add_argument('filename')
     args = parser.parse_args()
 
