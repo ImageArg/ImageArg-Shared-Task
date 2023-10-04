@@ -39,7 +39,7 @@ Participants are suggested to run the script twice to make sure each tweet is su
 
 **[UPDATE]** The organizers noticed recent changes to the Tweet policy that prevents viewing content without a logged-in
 account. It might make [stweet](https://github.com/markowanga/stweet) not work at the moment. In this case, please pull 
-`plugins` folder and run `python get_train_dev_data_v2.py`. The test data is also available by running `python get_test_data_v2.py`. 
+`plugins` folder and run `python get_train_dev_data_v2.py`. The test data (with labels) is also available by running `python get_test_data_v2.py`. 
 
 **[NOTICE]** The code will work best with macOS-ARM/X86 and Ubuntu/Debian
 systems with a Python 3.9 environment. If you are macOS users please install XCode (`xcode-select --install`). If you are 
@@ -97,7 +97,7 @@ If you participated in two subtasks, you would need to submit this **[Google For
 
 The best score in all the submissions from the same team will be automatically used for leaderboard ranking for each subtask.
 ## Citation
-
+Please cite our papers if you use the data for academic purposes.
 ```
 @inproceedings{liu-etal-2022-imagearg,
     title = "{I}mage{A}rg: A Multi-modal Tweet Dataset for Image Persuasiveness Mining",
