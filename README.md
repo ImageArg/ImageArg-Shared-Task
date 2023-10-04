@@ -39,7 +39,7 @@ Participants are suggested to run the script twice to make sure each tweet is su
 
 **[UPDATE]** The organizers noticed recent changes to the Tweet policy that prevents viewing content without a logged-in
 account. It might make [stweet](https://github.com/markowanga/stweet) not work at the moment. In this case, please pull 
-`plugins` folder and run `python get_train_dev_data_v2.py`. The test data is available by running `python get_test_data_v2.py`. 
+`plugins` folder and run `python get_train_dev_data_v2.py`. The test data is also available by running `python get_test_data_v2.py`. 
 
 **[NOTICE]** The code will work best with macOS-ARM/X86 and Ubuntu/Debian
 systems with a Python 3.9 environment. If you are macOS users please install XCode (`xcode-select --install`). If you are 
@@ -109,6 +109,16 @@ The best score in all the submissions from the same team will be automatically u
     publisher = "International Conference on Computational Linguistics",
     url = "https://aclanthology.org/2022.argmining-1.1",
     pages = "1--18"
+    }
+    
+@inproceedings{liu-etal-2023-overview,
+    title = "Overview of {I}mage{A}rg-2023: The First Shared Task in Multimodal Argument Mining",
+    author = "Liu, Zhexiong  and Elaraby, Mohamed  and Zhong, Yang  and Litman, Diane",
+    booktitle = "Proceedings of the 10th Workshop on Argument Mining",
+    month = Dec,
+    year = "2023",
+    address = "Online and in Singapore",
+    publisher = "Association for Computational Linguistics"
     }
 ```
 

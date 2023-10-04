@@ -18,13 +18,13 @@ import platform
 
 if __name__ == '__main__':
     if platform.processor() == "arm":
-        from plugins.macos_silicon import get_test_data_without_labels
+        from plugins.macos_silicon import get_test_data_with_labels
     elif platform.system() == "Darwin" and platform.machine() == "x86_64":
-        from plugins.macos_intel import get_test_data_without_labels
+        from plugins.macos_intel import get_test_data_with_labels
     elif platform.system() == "Linux" and platform.machine() == "x86_64":
-        from plugins.ubuntu import get_test_data_without_labels
+        from plugins.ubuntu import get_test_data_with_labels
     else:
         raise "not supported system!"
-    get_test_data_without_labels()
+    get_test_data_with_labels()
 
 
