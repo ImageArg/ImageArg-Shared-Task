@@ -122,7 +122,7 @@ Please cite our papers if you use the data for academic purposes.
     }
 ```
 
-## Organizers
+## 6. Organizers
 
 [Zheixong Liu](https://people.cs.pitt.edu/~zhexiong/), [Mohamed Elaraby](https://engsalem.github.io/), [Yang Zhong](http://yangzhongcs.com/), and [Diane Litman](https://people.cs.pitt.edu/~litman/) at University of
 Pittsburgh.
