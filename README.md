@@ -1,6 +1,6 @@
 # ImageArg-Shared-Task-2023
 
-## Information
+## 1. Information
 
 Webpage: [ImageArg Shared Task](https://imagearg.github.io/)
 
@@ -9,7 +9,7 @@ Join Slack: [ImageArg Slack](https://join.slack.com/t/imagearg/shared_invite/zt-
 Signup
 Form: *DEADLINE PASSED*
 
-## Introduction
+## 2. Introduction
 
 There has been a recent surge of interest in developing methods and corpora to improve and evaluate persuasiveness in
 natural language applications. However, these efforts have mainly focused on the textual modality, neglecting the
@@ -20,7 +20,7 @@ dataset is a significant step towards advancing multimodal persuasive text analy
 the persuasive impact of images in social media. To further this goal, we designed this shared task, which utilizes the
 ImageArg dataset to advance multimodal persuasiveness techniques.
 
-## Dataset
+## 3. Dataset
 
 The dataset to download should only be used for participating in the ImageArg Shared Task. Any other use is explicitly
 prohibited. Participants are not allowed to redistribute the dataset
@@ -47,7 +47,7 @@ Linux users please install essential build tools (`sudo apt-get install build-es
 you are Windows users or have any other issues, please contact the organizers by email or 
 [ImageArg Slack](https://join.slack.com/t/imagearg/shared_invite/zt-1ss5hdb6d-eNCaWOAEe4O_8UE1gQxIxA). 
 
-## Submission
+## 4. Submission
 Please note organizers use email addresses and team names to identify registered teams. Please ensure to input ANY email address
 you used in the registration phrase when you make a submission. If you don't remember your team names or emails 
 (used in the registration phase) please contact the organizers at imagearg [at] gmail.com
@@ -96,7 +96,7 @@ If you are not sure your format meets the requirement please run `python check_s
 If you participated in two subtasks, you would need to submit this **[Google Form](https://forms.gle/pUTqU5Vc2q2K91M58)** twice.
 
 The best score in all the submissions from the same team will be automatically used for leaderboard ranking for each subtask.
-## Citation
+## 5. Citation
 Please cite our papers if you use the data for academic purposes.
 ```
 @inproceedings{liu-etal-2022-imagearg,
