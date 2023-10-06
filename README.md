@@ -22,15 +22,15 @@ ImageArg dataset to advance multimodal persuasiveness techniques.
 
 ## 3. Dataset
 
-The dataset to download should only be used for participating in the ImageArg Shared Task. Any other use is explicitly
-prohibited. Participants are not allowed to redistribute the dataset
-per [Twitter Developer Policy](https://developer.twitter.com/en/developer-terms/policy).
+The dataset to download should only be used for scientific or research purposes. Any other use is explicitly prohibited. 
+The datasets must not be redistributed or shared in part or full with any third party per [Twitter Developer Policy](https://developer.twitter.com/en/developer-terms/policy).
+Redirect interested parties to [ImageArg](https://imagearg.github.io/) website.
 
 All the tweets are instantly crawled from Twitter. Organizers are aware some tweets could not be available when
 participants start to download (e.g., a tweet could be deleted by its author). Organizers will regularly monitor the
 dataset to provide data patches that will replace invalid tweets with new annotated ones. Participants are required to
 fill out
-the [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSci3TSw6ylcWnjXQsoUjh3buAQx7IdgiJwrJDR2pDHMm8DIpQ/viewform)
+the [Google Form (Closed)](https://docs.google.com/forms/d/e/1FAIpQLSci3TSw6ylcWnjXQsoUjh3buAQx7IdgiJwrJDR2pDHMm8DIpQ/viewform)
 in order to receive data patches and the shared task updates.
 
 Please install `requirements.txt` (`pip install -r requirements.txt`) dependencies ~~and run `python get_train_dev_data.py` to download training and dev
